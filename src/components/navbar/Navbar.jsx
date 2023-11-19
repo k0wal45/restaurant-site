@@ -11,7 +11,7 @@ const Navbar = () => {
   const [visible, setVisible] = useState(false)
 
   return (
-    <nav className='flex justify-between lg:justify-around items-center p-4 lg:px-8 py-4 w-screen max-w-screen absolute top-0 font-playfair'>
+    <nav className='z-50 flex justify-between lg:justify-around items-center p-4 lg:px-8 py-4 w-screen max-w-screen absolute top-0 font-playfair'>
       <div className="flex gap-8 items-center justify-center">
         <Link to="/">
           <img src={logo} alt="Logo Bezpieczni W Teorii" className='w-16 z-40'/>
@@ -30,22 +30,22 @@ const Navbar = () => {
           Menu
           </li>
         </Link>
-        <Link to="#about" className='border-white hover:border-b-2'>
+        <a href="#about" className='border-white hover:border-b-2'>
           <li>
           About Us
           </li>
-        </Link>
-        <Link to="/news" className='border-white hover:border-b-2'>
+        </a>
+        <a href="#news" className='border-white hover:border-b-2'>
           <li>
           News
           </li>
-        </Link>
+        </a>
       </ul>
 
-      <Link to="/reservation" className='hidden lg:flex gap-4 items-center justify-center border-white hover:border-b-2'>
+      <a href="#reservation" className='hidden lg:flex gap-4 items-center justify-center border-white hover:border-b-2'>
         <p className='text-xl text-white'>Reservation</p>
         <FontAwesomeIcon icon={faAnglesRight} className='text-white'/>
-      </Link>
+      </a>
 
 
         {/* mobile menu */}
@@ -77,21 +77,21 @@ const Navbar = () => {
           Menu
           </li>
         </Link>
-        <Link to="#about">
+        <a href="#about">
           <li className={`font-bold `}>
           About Us
           </li>
-        </Link>
-        <Link to="/news">
+        </a>
+        <a href="#news">
           <li className={`font-bold `}>
           News
           </li>
-        </Link>
-        <Link to="/reservation">
+        </a>
+        <a href="#reservation">
           <li className={`font-bold `}>
           Reservations
           </li>
-        </Link>
+        </a>
         <li>
           <ul className="flex justify-center items-center gap-8">
             <li>

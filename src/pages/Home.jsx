@@ -5,6 +5,9 @@ import SpecialMenu from '../components/SpecialMenu'
 import Quote from '../components/Quote'
 import Review from '../components/Review'
 import News from '../components/News'
+import Contact from '../components/Contact'
+import Map from '../components/Map'
+import Footer from '../components/Footer'
 
 const Home = () => {
   return (
@@ -15,7 +18,9 @@ const Home = () => {
       <Quote />
       <Review />
       <News />
-      <section className="h-[400vh]"></section>
+      <Contact />
+      <Map />
+      <Footer/>
     </main>
   )
 }

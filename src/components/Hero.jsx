@@ -2,7 +2,7 @@ import bowl from '../assets/img/bowl.webp'
 
 const Hero = () => {
   return (
-    <section className='w-screen max-w-screen min-h-screen flex flex-col lg:flex-row bg-photo items-end justify-end lg:justify-center p-4 pt-28 lg:pt-4'>
+    <section id='up' className='w-screen max-w-screen min-h-screen flex flex-col lg:flex-row bg-photo items-end justify-end lg:justify-center p-4 pt-28 lg:pt-4'>
       <img src={bowl} alt="Bowl with meal in it" className='hidden lg:block max-w-[30vw] object-contain brightness-[85%]'/>
       <div className="flex flex-col justify-between items-end lg:h-[66vh] text-white p-4 lg:max-w-[33vw] text-end gap-32">
         <div className="flex flex-col gap-8">

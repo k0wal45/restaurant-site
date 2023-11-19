@@ -42,3 +42,9 @@ body, html {
 .bg-paper {
 	background: url(./assets/img/paper.webp) fixed center center/cover;
 }
+
+.shadow-custom-white {
+  -webkit-box-shadow: 0px 0px 0px 10px rgba(255, 255, 255, 0.5);
+  -moz-box-shadow: 0px 0px 0px 10px rgba(255, 255, 255, 0.5);
+  box-shadow: 0px 0px 0px 10px rgba(255, 255, 255, 0.5);
+}
