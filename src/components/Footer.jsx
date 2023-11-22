@@ -22,16 +22,17 @@ function Footer() {
           </li>
           <li>|</li>
           <li>
-            <a href="#about">About</a>
+            <Link to="/about">About</Link>
           </li>
           <li>|</li>
           <li>
-            <a href="#news">News</a>
+            <Link to="/news">News</Link>
           </li>
           <li>|</li>
           <li>
-            <a href="#reservation">Reservation</a>
+            <Link to="/reservation">Reservation</Link>
           </li>
+
 
           
         </ul>

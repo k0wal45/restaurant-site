@@ -30,22 +30,23 @@ const Navbar = () => {
           Menu
           </li>
         </Link>
-        <a href="#about" className='border-white hover:border-b-2'>
+        <Link to="/about" className='border-white hover:border-b-2'>
           <li>
           About Us
           </li>
-        </a>
-        <a href="#news" className='border-white hover:border-b-2'>
+        </Link>
+        <Link to="/news" className='border-white hover:border-b-2'>
           <li>
           News
           </li>
-        </a>
+        </Link>
+        
       </ul>
 
-      <a href="#reservation" className='hidden lg:flex gap-4 items-center justify-center border-white hover:border-b-2'>
+      <Link to="/reservation" className='hidden lg:flex gap-4 items-center justify-center border-white hover:border-b-2'>
         <p className='text-xl text-white'>Reservation</p>
         <FontAwesomeIcon icon={faAnglesRight} className='text-white'/>
-      </a>
+      </Link>
 
 
         {/* mobile menu */}
@@ -57,7 +58,7 @@ const Navbar = () => {
           <span></span>
         </label>
 
-        <div className={`absolute top-0 right-0 h-screen bg-primary z-30 origin-right transition-all duration-350 flex flex-col pt-24 w-full bg-opacity-80 gap-12
+        <div className={`fixed top-0 right-0 h-screen bg-primary z-30 origin-right transition-all duration-350 flex flex-col pt-24 w-full bg-opacity-80 gap-12
         ${
           visible
           ? 'scale-x-1'
@@ -77,21 +78,22 @@ const Navbar = () => {
           Menu
           </li>
         </Link>
-        <a href="#about">
+        <Link to="/about">
           <li className={`font-bold `}>
           About Us
           </li>
-        </a>
-        <a href="#news">
+        </Link>
+        <Link to="/news">
           <li className={`font-bold `}>
           News
           </li>
-        </a>
-        <a href="#reservation">
+        </Link>
+        <Link to="/reservation">
           <li className={`font-bold `}>
-          Reservations
+          Reservation
           </li>
-        </a>
+        </Link>
+        
         <li>
           <ul className="flex justify-center items-center gap-8">
             <li>

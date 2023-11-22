@@ -278,6 +278,18 @@ const Menu = () => {
               <li>
                 <Link to="/menu">Menu</Link>
               </li>
+              <li>|</li>
+              <li>
+                <Link to="/about">About</Link>
+              </li>
+              <li>|</li>
+              <li>
+                <Link to="/news">News</Link>
+              </li>
+              <li>|</li>
+              <li>
+                <Link to="/reservation">Reservation</Link>
+              </li>
 
               
             </ul>
